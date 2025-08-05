@@ -2,7 +2,10 @@
 
 A modern, privacy-focused image compression tool that runs entirely in your browser using WebAssembly. Compress images locally without uploading them to any server.
 
-### Tech Stack
+### Screenshots
+![](./SafeShrink/demos/image.png)
+
+### Features
 - 🔒 Complete Privacy - Images never leave your browser.
 - ⚡ Fast Compression - Powered by Go WebAssembly.
 - 🛠️ Customizable - Adjust quality, dimensions, and aspect ratio.
