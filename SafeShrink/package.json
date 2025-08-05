@@ -1,0 +1,28 @@
+{
+  "name": "safeshrink-frontend",
+  "version": "1.0.0",
+  "description": "SafeShrink - Client-side image compression with WebAssembly",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-wasm": "node build-wasm.js",
+    "build-wasm:bat": "build-wasm.bat",
+    "build-wasm:ps1": "powershell -ExecutionPolicy Bypass -File build-wasm.ps1",
+    "build-wasm:bash": "bash build-wasm.sh",
+    "serve": "vite preview --port 3000"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@vueuse/core": "^10.4.1",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  },
+  "type": "module"
+}
