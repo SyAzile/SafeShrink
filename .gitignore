@@ -1,0 +1,35 @@
+# Frontend dependencies
+node_modules/
+
+# Frontend build artifacts
+SafeShrink/public/safeshrink.wasm
+
+# Go build artifacts
+*.exe
+*.dll
+safeshrink.exe
+
+# Go modules download cache
+go.sum
+
+# VS Code
+.vscode/
+
+# npm logs
+npm-debug.log*
+
+# Archive files
+*.zip
+
+# Test images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.tiff
+
+# Sample Images
+!sample.jpg
+!test.jpg
